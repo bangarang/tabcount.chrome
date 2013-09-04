@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "TabCount",
+  "description": "This extension displays the current count of Chrome tabs and windows",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "close.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
